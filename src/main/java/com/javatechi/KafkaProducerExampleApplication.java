@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class KafkaProducerExampleApplication {
 
 	public static void main(String[] args) {
+
+		System.out.println("KafkaProducerExampleApplication initiated");
 		SpringApplication.run(KafkaProducerExampleApplication.class, args);
 	}
 
